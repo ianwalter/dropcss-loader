@@ -1,0 +1,22 @@
+{
+  "name": "@ianwalter/dropcss-loader",
+  "description": "",
+  "version": "0.0.0",
+  "license": "SEE LICENSE IN LICENSE",
+  "main": "index.js",
+  "scripts": {
+    "test": "bff"
+  },
+  "dependencies": {
+    "dropcss": "^1.0.5",
+    "loader-utils": "^1.2.3",
+    "map-files": "^0.8.2"
+  },
+  "devDependencies": {
+    "@ianwalter/bff": "^3.1.1",
+    "@ianwalter/callback-loader": "^1.0.1",
+    "@ianwalter/eslint-config": "^1.1.2",
+    "memory-fs": "^0.4.1",
+    "webpack": "^4.30.0"
+  }
+}
