@@ -4,7 +4,7 @@ const webpack = require('webpack')
 const MemoryFileSystem = require('memory-fs')
 
 test('unused CSS rules are removed', ({ expect }) => {
-  return new Promise (resolve => {
+  return new Promise(resolve => {
     const compiler = webpack({
       entry: join(__dirname, './fixtures/example.css'),
       module: {
