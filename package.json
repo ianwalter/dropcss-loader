@@ -1,13 +1,24 @@
 {
   "name": "@ianwalter/dropcss-loader",
-  "description": "",
+  "description": "A Webpack loader for dropcss",
   "version": "0.0.0",
+  "author": "Ian Walter <public@iankwalter.com> (https://iankwalter.com)",
   "license": "SEE LICENSE IN LICENSE",
   "main": "index.js",
   "scripts": {
     "lint": "eslint index.js tests",
     "test": "bff"
   },
+  "keywords": [
+    "dropcss",
+    "webpack",
+    "loader",
+    "unused",
+    "css"
+  ],
+  "files": [
+    "index.js"
+  ],
   "dependencies": {
     "dropcss": "^1.0.5",
     "loader-utils": "^1.2.3",
