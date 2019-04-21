@@ -29,6 +29,7 @@
     "@ianwalter/callback-loader": "^1.0.1",
     "@ianwalter/eslint-config": "^1.1.2",
     "memory-fs": "^0.4.1",
+    "np": "^5.0.0",
     "webpack": "^4.30.0"
   },
   "eslintConfig": {
