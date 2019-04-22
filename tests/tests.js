@@ -23,7 +23,7 @@ test('unused CSS rules are removed', ({ expect }) => {
               },
               {
                 loader: join(__dirname, '../'),
-                options: { html: ['tests/fixtures/example.html'] }
+                options: { html: ['tests/fixtures/**/*.html'] }
               }
             ]
           }
